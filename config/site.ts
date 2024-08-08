@@ -5,7 +5,7 @@ export const siteConfig = {
 	description:
 		"Medicine reference for students, doctors, pharmacists, nurses, and other healthcare professionals.",
 	mainNav: [
-		{title: "Home", href: "/"},
+		{title: "", href: "/"},
 	],
 	links: {
 		facebook: "https://facebook.com/abirpahlwan",
