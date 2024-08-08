@@ -18,7 +18,7 @@ export function SiteHeader() {
 					<nav className="flex items-center space-x-1">
 						<Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
 							<div className={buttonVariants({size: "icon", variant: "ghost"})}>
-								<Icons.gitHub className="size-5"/>
+								<Icons.github className="size-5"/>
 								<span className="sr-only">GitHub</span>
 							</div>
 						</Link>

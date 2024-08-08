@@ -7,6 +7,7 @@ import {cn} from "@/lib/utils"
 import {SiteHeader} from "@/components/site-header"
 import {ThemeProvider} from "@/components/theme-provider"
 import {SearchBar} from "@/components/search-bar";
+import {FeatureSection} from "@/app/sections/feature-section";
 
 export const metadata: Metadata = {
 	title: {
@@ -39,6 +40,7 @@ export default function RootLayout({children}: RootLayoutProps) {
 				<div className="relative flex min-h-screen flex-col">
 					<SiteHeader/>
 					<SearchBar/>
+					<FeatureSection/>
 					<div className="flex-1">{children}</div>
 				</div>
 			</ThemeProvider>
