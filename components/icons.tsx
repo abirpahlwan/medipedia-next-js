@@ -7,10 +7,11 @@ import {
 	type Icon as LucideIcon,
 	Tablet,
 	HeartPulseIcon,
-	GithubIcon
+	GithubIcon,
 } from "lucide-react";
 
 import BrandIcon from "@/components/icons/brand-icon";
+import PlanetScale from "@/components/icons/planetscale-icon";
 
 export type Icon = LucideIcon
 
@@ -21,6 +22,7 @@ export const Icons = {
 	logo: LucideDna,
 	github: GithubIcon,
 	heartpulse: HeartPulseIcon,
+	planetscale: PlanetScale,
 	brand: BrandIcon,
 	generics: Tablet,
 	indications: Tablet,
