@@ -7,7 +7,7 @@ import {cn} from "@/lib/utils"
 import {SiteHeader} from "@/components/site-header"
 import {ThemeProvider} from "@/components/theme-provider"
 import {SearchBar} from "@/components/search-bar";
-import {FeatureSection} from "@/app/sections/feature-section";
+import {FeatureSection} from "@/app/views/feature-section";
 
 export const metadata: Metadata = {
 	title: {
