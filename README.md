@@ -4,8 +4,8 @@ Medicine reference for students, doctors, pharmacists, nurses, and other healthc
 
 ## Features
 
-- Generics
 - Brands
+- Generics
 - Indications
 - Pharmaceuticals
 - Pharmacology
